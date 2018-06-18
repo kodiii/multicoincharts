@@ -474,7 +474,9 @@ function letsGo() {
                 //if there are nothing in the localstorage, use some default value
                 chartPairs.push("COINBASE:BTCUSD");
                 chartPairs.push("COINBASE:ETHUSD");
-                chartPairs.push("BITTREX:OMGBTC");
+                chartPairs.push("BITTREX:BATBTC");
+                chartPairs.push("BITTREX:ZILBTC");
+                chartPairs.push("BITTREX:SPANKBTC");
                 chartPairs.push("BITTREX:BTGBTC");
             }
         }
