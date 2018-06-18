@@ -11,6 +11,7 @@ After many new changes, more issues with browser support are showing and usabili
 ### Bugs / Issues
 ```1srt``` Auto load ```id="nocharts"```
 
-### New Contibutors
+### New Contributors
 [shellstorm](Github/shellstrom)
 [WhiteRavenTechnology](Github/WhiteRavenTechnology)
+[amisolution](https://amisdex.Github.io/multicoincharts)
