@@ -526,7 +526,7 @@
                     //if there are nothing in the localstorage, use some default value
                     chartPairs.push("COINBASE:BTCUSD");
                     chartPairs.push("COINBASE:ETHUSD");
-                    chartPairs.push("BITTREX:OMGBTC");
+                    chartPairs.push("POLONIEX:BTSBTC");
                     chartPairs.push("BITTREX:BTGBTC");
                 }
             }
