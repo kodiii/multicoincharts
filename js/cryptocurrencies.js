@@ -69,6 +69,7 @@ var cryptocurrencies = {
 	AMBER: 'AmberCoin',
 	AMB: 'Ambrosus',
 	AMC: 'AmericanCoin',
+	AMIS: 'Amis',
 	AMMO: 'Ammo Rewards',
 	AMS: 'Amsterdam Coin',
 	AMY: 'Amygws',
