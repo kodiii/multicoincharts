@@ -297,7 +297,7 @@
 
             //Open in Coinigy button
             let btnEl = document.createElement("a");
-            btnEl.innerHTML = "<img src='images/coinigy.png' class='"+ usesmallbutton2 + "'/>";
+            btnEl.innerHTML = "<img src='multicoincharts/images/coinigy.png' class='"+ usesmallbutton2 + "'/>";
             btnEl.setAttribute("href", "javascript:void(0)");
             btnEl.setAttribute("title", "Open in Coinigy");
             btnEl.setAttribute("data-balloon-length", "small");
