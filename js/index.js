@@ -14,7 +14,7 @@
     const STORAGE_ALLOWSYMBOLCHANGE = "allowSymbolChange";
     const STORAGE_USESMALLBUTTON = "useSmallButton";
     const STORAGE_CHARTSPAIRS = "chartPairs";
-    const BASEURL_COINIGY = "https://www.coinigy.com/main/markets";
+    const BASEURL_COINIGY = "https://www.coinigy.com/bitcoin-exchanges/";
 
     let gbl_dark = null;
     let gbl_boxWidth = '';
@@ -527,7 +527,7 @@
                     chartPairs.push("COINBASE:BTCUSD");
                     chartPairs.push("COINBASE:ETHUSD");
                     chartPairs.push("POLONIEX:BTSBTC");
-                    chartPairs.push("QUANDL:BATS_AMIS");
+                    chartPairs.push("BATS:BATS_AMIS");
                 }
             }
             let chartPUrl = location.origin + "/?";
