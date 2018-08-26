@@ -527,7 +527,7 @@
                     chartPairs.push("COINBASE:BTCUSD");
                     chartPairs.push("COINBASE:ETHUSD");
                     chartPairs.push("POLONIEX:BTSBTC");
-                    chartPairs.push("QUANDL:BATS_AMIS");
+                    chartPairs.push("QUANDL:BATS");
                 }
             }
             let chartPUrl = location.origin + "/?";
