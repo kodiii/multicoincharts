@@ -527,10 +527,10 @@
                     chartPairs.push("COINBASE:BTCUSD");
                     chartPairs.push("COINBASE:ETHUSD");
                     chartPairs.push("POLONIEX:BTSBTC");
-                    chartPairs.push("BATS:BATS_AMIS");
+                    chartPairs.push("FXCM:EURUSD");
                 }
             }
-            let chartPUrl = location.origin + "/?";
+            let chartPUrl = location.origin + "multicoincharts/?";
             chartPairs.forEach(function(_) {chartPUrl += "chart=" + _ + "&"});
             try { history.replaceState(null, document.title, chartPUrl); }
             catch (error) { } try { loadDoc(); } catch (error) { }
