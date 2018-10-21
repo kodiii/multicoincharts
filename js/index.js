@@ -396,7 +396,7 @@
             rebuildChartsPairsArray();
 
             //recreate the charts
-            var urlStr = window.top.location.href.substr(0, top.location.href.lastIndexOf("?") + 1);
+            var urlStr = window.top.location.href.substr(0, top.location.href.lastIndexOf("multicoincharts/?") + 1);
             for(let i = 0; i < chartPairs.length; i++) {
                 createChart((chartPairs[i] !== null ? chartPairs[i] : "COINBASE:BTCUSD"));
                 if (i!=0) urlStr += "&";
