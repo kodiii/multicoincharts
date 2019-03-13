@@ -527,7 +527,7 @@
                     chartPairs.push("COINBASE:BTCUSD");
                     chartPairs.push("COINBASE:ETHUSD");
                     chartPairs.push("POLONIEX:BTSBTC");
-                    chartPairs.push("FXCM:EURUSD");
+                    chartPairs.push("POLONIEX:ETCUSDT");
                 }
             }
             let chartPUrl = location.origin + "multicoincharts/?";
