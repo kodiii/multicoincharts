@@ -68,7 +68,7 @@
 									<OPTION value="BITTREX:BTCUSDT">BITTREX:BTCUSDT</OPTION>
 									<OPTION value="BITTREX:ETHUSDT">BITTREX:ETHUSDT</OPTION>
 									<OPTION value="POLONIEX:BTSBTC">POLONIEX:BTSBTC</OPTION>
-									<OPTION value="BITTREX:LTCBTC">BITTREX:LTCBTC</OPTION> -->
+									<OPTION value="POLONIEX:ETCUSDT">POLONIEX:ETCUSDT</OPTION> -->
 								</SELECT>
 							</DIV>
 							<INPUT id="btnRemovePairs" style="background: #d14343; border: none; width: 100%;" type="button" value="Remove Selected Pairs" onclick="btnRemovePairsClick()" />
@@ -93,7 +93,7 @@
 								<OPTION value="America/Caracas">(UTC-4) Caracas</OPTION>
 								<OPTION value="America/Argentina/Buenos_Aires">(UTC-3) Buenos Aires</OPTION>
 								<OPTION value="America/Sao_Paulo">(UTC-2) Sao Paulo</OPTION>
-								<OPTION value="Europe/London">(UTC) London</OPTION>
+								<OPTION value="Europe/London" selected="selected">(UTC) London</OPTION>
 								<OPTION value="Europe/Madrid">(UTC+1) Madrid</OPTION>
 								<OPTION value="Europe/Paris">(UTC+1) Paris</OPTION>
 								<OPTION value="Europe/Rome">(UTC+1) Rome</OPTION>
@@ -118,7 +118,7 @@
 								<OPTION value="Asia/Almaty">(UTC+6) Almaty</OPTION>
 								<OPTION value="Asia/Bangkok">(UTC+7) Bangkok</OPTION>
 								<OPTION value="Asia/Taipei">(UTC+8) Taipei</OPTION>
-								<OPTION value="Asia/Singapore" selected="selected">(UTC+8) Singapore</OPTION>
+								<OPTION value="Asia/Singapore">(UTC+8) Singapore</OPTION>
 								<OPTION value="Asia/Shanghai">(UTC+8) Shanghai</OPTION>
 								<OPTION value="Asia/Chongqing">(UTC+8) Chongqing</OPTION>
 								<OPTION value="Asia/Hong_Kong">(UTC+8) Hong Kong</OPTION>
@@ -139,11 +139,11 @@
 								<OPTION value="5">5m</OPTION>
 								<OPTION value="15">15m</OPTION>
 								<OPTION value="30">30m</OPTION>
-								<OPTION value="60" selected="selected">1h</OPTION>
+								<OPTION value="60">1h</OPTION>
 								<OPTION value="120">2h</OPTION>
 								<OPTION value="180">3h</OPTION>
 								<OPTION value="240">4h</OPTION>
-								<OPTION value="D">1d</OPTION>
+								<OPTION value="D" selected="selected">1d</OPTION>
 								<OPTION value="W">1w</OPTION>
 							</SELECT>
 							<BR>
@@ -242,7 +242,7 @@
 
 	<DIV id="addSingleChart" style="text-align: center; display: none;">
 		<DIV class="divPairsSetup">
-			<H3 style='color:#eee'>Add in your pairs below to get started (e.g: BITTREX:BTCUSDT):</H3>
+			<H3 style='color:#eee'>Add in your pairs below to get started (e.g: POLONIEX:BTCUSDT):</H3>
 			<INPUT id='SinglepairsInput' type="text" placeholder="Press enter to add the pairs" />
 		</DIV>
 	</DIV>
