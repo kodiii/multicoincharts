@@ -115,7 +115,7 @@ function letsGo() {
         alert("At least one exchange & chart pair are needed to get started.");
         return;
     }
-    var urlStr = "https://www.multicoincharts.com/testdrive.html?";
+    var urlStr = "https://amisdex.github.io/multicoincharts/testdrive.html?";
     for (var i = 0; i < optl; i++) {
         if (i != 0) urlStr += "&";
         urlStr += "chart=" + options[i].value;
@@ -479,8 +479,8 @@ function loadCharts(url) {
             //if there are nothing in the localstorage, use some default value
             charts.pairs.push("COINBASE:BTCUSD");
             charts.pairs.push("COINBASE:ETHUSD");
-            charts.pairs.push("BITTREX:OMGBTC");
-            charts.pairs.push("BITTREX:BTGBTC");
+            charts.pairs.push("POLONIEX:BTSBTC");
+            charts.pairs.push("POLONIEX:ETCUSDT");
         }
     }
 
