@@ -525,9 +525,9 @@
                 } else {
                     //if there are nothing in the localstorage, use some default value
                     chartPairs.push("COINBASE:BTCUSD");
-                    chartPairs.push("COINBASE:ETHUSD");
-                    chartPairs.push("POLONIEX:BTSBTC");
-                    chartPairs.push("POLONIEX:ETCUSDT");
+                    chartPairs.push("OANDA:NAS100USD");
+                    chartPairs.push("OANDA:XAUUSD");
+                    chartPairs.push("OANDA:EURUSD");
                 }
             }
             let chartPUrl = location.origin + "multicoincharts/?";
