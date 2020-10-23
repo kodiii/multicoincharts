@@ -7,6 +7,10 @@ After many new changes, more issues with browser support are showing and usabili
 - [https://amisdex.github.io/multicoincharts](https://amisdex.github.io/multicoincharts/index.html)
 - [https://amisdex.github.io/multicoincharts/main.html](https://amisdex.github.io/multicoincharts/main.html)
 
+For regular instrumentsm check this one:
+
+- [https://amisdex.github.io/multicoincharts/index1.html](https://amisdex.github.io/multicoincharts/index1.html)
+
 ### Current Additions
 ```2nd``` Rearrange ```id="topbar"```
 
